@@ -1,0 +1,56 @@
+{
+  "cacheVersion": "D20210525T193831",
+  "outputFile": "/Users/heinthant/Documents/codes/other/nim-wcwidth/calc",
+  "compile": [
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@sstd@sprivate@sdigitsutils.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@sstd@sprivate@sdigitsutils.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@sstd@sprivate@sdigitsutils.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@ssystem.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@ssystem.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@ssystem.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@spure@sunicode.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@spure@sunicode.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@spure@sunicode.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@swc_table.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@swc_table.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@swc_table.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@scombining_table.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@scombining_table.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@scombining_table.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth.nim.c"
+    ],
+    [
+      "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@mcalc.nim.c",
+      "clang -c -w -ferror-limit=3 -O3   -I/opt/homebrew/Cellar/nim/1.6.10/nim/lib -I/Users/heinthant/Documents/codes/other/nim-wcwidth -o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@mcalc.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@mcalc.nim.c"
+    ]
+  ],
+  "link": [
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@sstd@sprivate@sdigitsutils.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@ssystem.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@spure@sunicode.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@swc_table.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@scombining_table.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth.nim.c.o",
+    "/Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@mcalc.nim.c.o"
+  ],
+  "linkcmd": "clang   -o /Users/heinthant/Documents/codes/other/nim-wcwidth/calc /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@sstd@sprivate@sdigitsutils.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@ssystem.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s..@s..@sopt@shomebrew@sCellar@snim@s1.6.10@snim@slib@spure@sunicode.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@swc_table.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth@scombining_table.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@m..@s..@s..@s..@s.nimble@spkgs2@swcwidth-0.1.3-21dbbf5887a9f462dcd66b9c81c3163eb9edae42@swcwidth.nim.c.o /Users/heinthant/Documents/codes/other/nim-wcwidth/cache/@mcalc.nim.c.o    -ldl",
+  "extraCmds": [],
+  "configFiles": [
+    "/opt/homebrew/Cellar/nim/1.6.10/nim/config/nim.cfg",
+    "/opt/homebrew/Cellar/nim/1.6.10/nim/config/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/Users/heinthant/Documents/codes/other/nim-wcwidth",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}
