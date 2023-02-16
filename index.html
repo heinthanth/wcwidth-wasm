@@ -11,11 +11,15 @@
     <div class="container mx-auto max-w-[30%] h-screen min-h-[400px] flex flex-col justify-center">
       <label for="input-text" class="block mb-2">Input Text:</label>
       <textarea
-        class="block border border-gray-400 w-full rounded mb-8 p-2"
+        class="block border border-gray-400 w-full rounded mb-2 p-2"
         type="text"
         id="input-text"
         rows="5"
       ></textarea>
+      <div class="flex items-center gap-x-2 mb-8">
+        <input type="checkbox" id="amb" />
+        <label for="amb">count ambiguous width as 2</label>
+      </div>
       <label for="output" class="block mb-2"> Column Count: </label>
       <div id="output" class="border border-gray-400 w-full rounded p-2">0</div>
     </div>
@@ -26,10 +30,19 @@
       Module.onRuntimeInitialized = () => {
         const calc = Module.cwrap('calculateWidth', 'number', ['string', 'boolean']);
         const output = document.querySelector('#output');
+        const amb = document.querySelector('#amb');
+        const input = document.querySelector('#input-text')
 
-        document.querySelector('#input-text').addEventListener('input', (e) => {
+        input.addEventListener('input', (e) => {
+          console.log(amb.checked, input.value);
           let u8s = textEncoder.encode(e.target.value);
-          output.innerHTML = calc(e.target.value, false);
+          output.innerHTML = calc(input.value, amb.checked);
+        });
+
+        amb.addEventListener('change', (e) => {
+          console.log(amb.checked, input.value);
+          let u8s = textEncoder.encode(input.value);
+          output.innerHTML = calc(input.value, amb.checked);
         });
       };
     </script>
